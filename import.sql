@@ -239,17 +239,17 @@ CREATE PROPERTY INDEX ON territories (territoryid);
 
 LOAD FROM nw_employee_territories AS r
 MATCH (e:employees), (t:territories)
-WHERE e.employeeid::int = (r).employeeid AND
-      t.territoryid::text = (r).territoryid
+WHERE e.employeeid = to_jsonb(r.employeeid) AND
+      t.territoryid = to_jsonb(r.territoryid)
 CREATE (e)-[:belongs_to]->(t);
 
 LOAD FROM nw_order_details AS r
 MATCH (o:orders), (p:products)
-WHERE o.orderid::int = (r).orderid AND
-      p.productid::int = (r).productid
-CREATE (o)-[:contains {unitprice: (r).unitprice,
-                       quantity: (r).quantity,
-                       discount: (r).discount}]->(p);
+WHERE o.orderid = to_jsonb(r.orderid) AND
+      p.productid = to_jsonb(r.productid)
+CREATE (o)-[:contains {unitprice: r.unitprice,
+                       quantity: r.quantity,
+                       discount: r.discount}]->(p);
 
 MATCH (e:employees), (b:employees) WHERE e.reportto = b.employeeid
 CREATE (e)-[:reports_to]->(b);
