@@ -19,7 +19,7 @@ In general, there are two ways to load data into AgensGraph:
 1. Import dataset files into AgensGraph. 
 2. Execute queries on AgensGraph to generate the data
  
-This tutorial describes how to import a dataset file (CSV) into AgensGraph. If you want more information on how to generate data using queries, please visit Bitnine's website and read [*Basic Cypher and Advanced Cypher*](http://bitnine.net/learn/) white papers.
+This tutorial describes how to import a dataset file (CSV) into AgensGraph. If you want more information on how to generate data using queries, please visit Bitnine's website and read [*Basic Cypher and Advanced Cypher*](http://bitnine.net/learn/) white papers. We provide the full version of this tutorial on our homepage so if you are interested, please click the link below to meet our tutorial. Thank you.
 
 Contents of [tutorial](http://bitnine.net/tutorial/english-tutorial.html):
 
