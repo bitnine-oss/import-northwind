@@ -9,8 +9,8 @@ The goal of this tutorial is to give users guidance in how to load sample data i
 In order to load and use data as guided in this tutorial, AgensGraph should be installed first. You can install/use AgensBrowser, a visualization tool, as well, for easier and quicker analysis of the sample data. 
 
 - [**Download AgensGraph & AgensBrowser**](http://bitnine.net/downloads/)
-- [**AgensGraph Installing Guide**](http://bitnine.net/tutorial/agensGraph-install-instruction.pdf)
-- [**AgensBrowser Installing Guide**](http://bitnine.net/tutorial/agensBrowser-install-instruction.pdf)
+- [**AgensGraph Installing Guide**](http://bitnine.net/tutorial/agensGraph-install-instruction-eng.pdf)
+- [**AgensBrowser Installing Guide**](http://bitnine.net/tutorial/agensBrowser-install-instruction-eng.pdf)
 
 ### import_northwind                                   
 
